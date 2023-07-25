@@ -1,0 +1,31 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; */
+h1
+{
+    font-family: "Pacifico", cursive;
+color: rgb(170, 88, 214);
+}
+body
+{
+    background-image: url(../1397045.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+p , i
+{
+    color:rgb(170, 88, 214) ;
+}
+.main-color
+{
+    color:rgb(170, 88, 214) ;
+}
+.btn-submit
+{
+    padding:10 50px !important;
+    background-color: rgb(170, 88, 214) !important ; ;
+    font-size: 18px !important;
+    border: 1px rgb(170, 88, 214) solid !important;
+}
