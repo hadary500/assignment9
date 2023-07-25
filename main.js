@@ -24,8 +24,7 @@ function invok() {
     cartona += `
         <tr class="fw-bold">
         <td>${items[i].name}</td>
-        <td>${items[i].site}</td>
-        <td><a href="${items[i].urlName}"<button onclick="visitBtn(${i})" class="btn btn-success"><i class="fa-solid fa-eye"></i></button>visit</a></td>
+        <td><a href="${items[i].site}"<button onclick="visitBtn()" class="btn btn-success"><i class="fa-solid fa-eye"></i></button>visit</a></td>
         <td><button onclick="deleteItem(${i})" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete</button></td>
         </tr>
         `;
